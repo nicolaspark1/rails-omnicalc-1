@@ -1,0 +1,21 @@
+<h1>Results of square calculations</h1>
+
+<dl>
+  <dt>
+    Number
+  </dt>
+  <dd>
+    <%= params.fetch("users_number") %>
+  </dd>
+
+  <dt>
+    Square
+  </dt>
+  <dd>
+    <%= @the_result %>
+  </dd>
+</dl>
+
+<a href="/square/new">
+  Calculate another square
+</a>
